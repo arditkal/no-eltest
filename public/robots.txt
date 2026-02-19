@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://no-el.no/sitemap.xml
