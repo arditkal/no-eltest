@@ -202,6 +202,26 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Sponsor */}
+      <section className="section" style={{ textAlign: 'center', paddingBottom: '2rem' }}>
+        <div className="container">
+          <p style={{ fontSize: '0.95rem', color: '#5A7A8F', maxWidth: '600px', margin: '0 auto' }}>
+            Denne nettsiden er sponset av{' '}
+            <a href="https://meglertipset.no" target="_blank" rel="noopener noreferrer" style={{ color: '#D4922C', textDecoration: 'underline', fontWeight: 600 }}>
+              Meglertipset.no
+            </a>
+            {' '}– som hjelper deg å finne{' '}
+            <a href="https://meglertipset.no/eiendomsmegler-oslo" target="_blank" rel="noopener noreferrer" style={{ color: '#D4922C', textDecoration: 'underline' }}>
+              eiendomsmegler i Oslo
+            </a>
+            {' '}og{' '}
+            <a href="https://meglertipset.no/eiendomsmegler-bergen" target="_blank" rel="noopener noreferrer" style={{ color: '#D4922C', textDecoration: 'underline' }}>
+              eiendomsmegler i Bergen
+            </a>.
+          </p>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="cta-section">
         <div className="container">
